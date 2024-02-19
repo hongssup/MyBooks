@@ -15,6 +15,9 @@
 		C46AA32D2B81F5E100FD8FA7 /* MyBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AA32C2B81F5E100FD8FA7 /* MyBooksTests.swift */; };
 		C46AA3372B81F5E100FD8FA7 /* MyBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AA3362B81F5E100FD8FA7 /* MyBooksUITests.swift */; };
 		C46AA3392B81F5E100FD8FA7 /* MyBooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AA3382B81F5E100FD8FA7 /* MyBooksUITestsLaunchTests.swift */; };
+		C46AA3482B82298600FD8FA7 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46AA3472B82298600FD8FA7 /* ColorAssets.xcassets */; };
+		C46AA34D2B822DFC00FD8FA7 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AA34C2B822DFC00FD8FA7 /* MyButton.swift */; };
+		C46AA34F2B822F0E00FD8FA7 /* DesignConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AA34E2B822F0E00FD8FA7 /* DesignConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		C46AA3322B81F5E100FD8FA7 /* MyBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46AA3362B81F5E100FD8FA7 /* MyBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksUITests.swift; sourceTree = "<group>"; };
 		C46AA3382B81F5E100FD8FA7 /* MyBooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C46AA3472B82298600FD8FA7 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		C46AA34C2B822DFC00FD8FA7 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		C46AA34E2B822F0E00FD8FA7 /* DesignConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,10 @@
 		C46AA3182B81F5E000FD8FA7 /* MyBooks */ = {
 			isa = PBXGroup;
 			children = (
+				C46AA3492B8229D800FD8FA7 /* Design */,
 				C46AA3192B81F5E000FD8FA7 /* MyBooksApp.swift */,
 				C46AA31B2B81F5E000FD8FA7 /* ContentView.swift */,
 				C46AA31D2B81F5E000FD8FA7 /* Item.swift */,
-				C46AA31F2B81F5E100FD8FA7 /* Assets.xcassets */,
 				C46AA3212B81F5E100FD8FA7 /* Preview Content */,
 			);
 			path = MyBooks;
@@ -128,6 +134,33 @@
 				C46AA3382B81F5E100FD8FA7 /* MyBooksUITestsLaunchTests.swift */,
 			);
 			path = MyBooksUITests;
+			sourceTree = "<group>";
+		};
+		C46AA3492B8229D800FD8FA7 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				C46AA34B2B8229FE00FD8FA7 /* Sources */,
+				C46AA34A2B8229F200FD8FA7 /* Resources */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		C46AA34A2B8229F200FD8FA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C46AA31F2B81F5E100FD8FA7 /* Assets.xcassets */,
+				C46AA3472B82298600FD8FA7 /* ColorAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C46AA34B2B8229FE00FD8FA7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C46AA34C2B822DFC00FD8FA7 /* MyButton.swift */,
+				C46AA34E2B822F0E00FD8FA7 /* DesignConstants.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46AA3232B81F5E100FD8FA7 /* Preview Assets.xcassets in Resources */,
+				C46AA3482B82298600FD8FA7 /* ColorAssets.xcassets in Resources */,
 				C46AA3202B81F5E100FD8FA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +297,8 @@
 				C46AA31C2B81F5E000FD8FA7 /* ContentView.swift in Sources */,
 				C46AA31E2B81F5E000FD8FA7 /* Item.swift in Sources */,
 				C46AA31A2B81F5E000FD8FA7 /* MyBooksApp.swift in Sources */,
+				C46AA34F2B822F0E00FD8FA7 /* DesignConstants.swift in Sources */,
+				C46AA34D2B822DFC00FD8FA7 /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
